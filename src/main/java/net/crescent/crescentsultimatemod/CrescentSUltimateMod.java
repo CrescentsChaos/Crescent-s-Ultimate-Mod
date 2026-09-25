@@ -1,9 +1,9 @@
 package net.crescent.crescentsultimatemod;
 
+import net.crescent.crescentsultimatemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +14,7 @@ public class CrescentSUltimateMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModITems();
 	}
 
 	public static Identifier id(String path) {
