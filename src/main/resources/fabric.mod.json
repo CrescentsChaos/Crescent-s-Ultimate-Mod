@@ -3,15 +3,15 @@
 	"id": "crescents-ultimate-mod",
 	"version": "${version}",
 	"name": "Crescent's Ultimate Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Everything is one mod!",
 	"authors": [
-		"Me!"
+		"Crescent"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/CrescentsChaos/Crescent-s-Ultimate-Mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT-license",
 	"icon": "assets/crescents-ultimate-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
